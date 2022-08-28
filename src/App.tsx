@@ -129,7 +129,7 @@ changePlayer()
         className="text-center "
         >
 
-        <button onClick={handleReset} className="border-2 p-2  text-black hover:bg-red-500 hover:text-white transition-colors duration-300">Resetar</button>
+        <button onClick={handleReset} className="border-2 p-2  text-black sm:hover:bg-red-500 sm:hover:text-white transition-colors duration-300">Resetar</button>
         </div>
         <p className="text-white mt-5">Próximo a Jogar: <span>{currentPlayer}</span></p>
         <p className="text-white mt-5">Vitórias de X : <span>{scores["X"]}</span></p>
