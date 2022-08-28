@@ -113,7 +113,7 @@ changePlayer()
   }
 
   return (
-    <div className=" h-full sm:h-screen sm:w-full sm:p-12 p-2 text-slate-800 bg-gradient-to-l from-teal-500 to-cyan-500 ">
+    <div className=" sm:h-screen sm:w-full sm:p-12 p-2 min-h-screen text-slate-800 bg-gradient-to-l from-teal-500 to-cyan-500 ">
       <h1 className="text-center sm:text-5xl mb-12 font-display text-white text-4xl "> Jogo da velha</h1>
       <div>
       <div className="grid grid-cols-3 sm:gap-3 mx-auto sm:w-96 mb-8 gap-1">
